@@ -1,0 +1,71 @@
+dinaramuratova@MacBook-Air-Dinara lab6 % erl
+Erlang/OTP 26 [erts-14.2.2] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [jit] [dtrace]
+
+Eshell V14.2.2 (press Ctrl+G to abort, type help(). for help)
+1> {ok, QPid1} = rss_queue:start(cnn_top_stories, "http://rss.cnn.com/rss/cnn_topstories.rss").
+{ok,<0.87.0>}
+=INFO REPORT==== 9-Apr-2024::11:07:08.871477 ===
+rss_queue <0.97.0>:  Added N=69 items from the feed to <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.871648 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.871736 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.871829 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.871966 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.874690 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.874964 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.875222 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.878713 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.879030 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.879397 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.879821 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.880252 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.880647 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.882100 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.882632 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.883078 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.883488 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.883928 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.884404 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.884872 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
+
+=INFO REPORT==== 9-Apr-2024::11:07:08.885464 ===
+rss_queue <0.87.0>:  New item <0.87.0> 
